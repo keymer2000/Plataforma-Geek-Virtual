@@ -1,0 +1,19 @@
+#navegador{
+
+    display: block;
+    padding-left: 0;    
+}
+
+
+#navegador > li > a{
+   color: black;
+}
+
+.logo-colaboradores {
+    /* text-align: center; */
+    display: block;
+    
+}
+.logo-colaboradores > div{
+    margin-bottom: 20px;
+}
