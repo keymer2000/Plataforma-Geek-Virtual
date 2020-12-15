@@ -1,0 +1,32 @@
+#cont-title-geek{
+    background-color: rgb(91, 91, 248);
+}
+
+#title-geek{
+    text-align: center;
+    font-size: 9rem;
+    color: white;
+}
+
+/* #generador-anuncios{
+   display: block;
+   width: 80%;
+   margin: auto; 
+    
+} */
+
+#boton-publicar-anuncion{
+    float: right;
+    margin-top: 10px;
+    display: block;
+    
+}
+
+
+#tabla-anuncios{
+    width: 100%;
+    margin-top: 60px; /* esta linea es para que no se suba la tabla a  la linea del boton */
+
+   
+}
+

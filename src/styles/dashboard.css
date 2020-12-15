@@ -1,19 +1,37 @@
-#navegador{
-
-    display: block;
-    padding-left: 0;    
+#cont-navegador{
+    max-width: 20%;
+    min-width: 20%;
 }
 
+#navegador{
+    padding-left: 0px; 
+    display: block;
+    padding: 10px;
+    /* background-color: darkgrey; */
+
+
+} 
+#navegador > li{
+    list-style: none;
+}
 
 #navegador > li > a{
-   color: black;
+    /* background-color: white; */
+   color: rgb(39, 27, 27);
+   padding: 8px;
+}
+/* 
+#navegador > li > a:hover{
+    background-color: rgb(202, 211, 211);
+} */
+
+#cont-colaboradores{
+    padding: 10px;
 }
 
-.logo-colaboradores {
-    /* text-align: center; */
-    display: block;
-    
-}
-.logo-colaboradores > div{
-    margin-bottom: 20px;
+/* configuracion de estilos para el panel central */
+
+#cont-anuncios{
+    width: 80%;
+    /* padding: 0 20px 0 20px; */
 }
