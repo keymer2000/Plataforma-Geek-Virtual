@@ -7,22 +7,28 @@
     padding-left: 0px; 
     display: block;
     padding: 10px;
-    background-color: darkgrey; 
+    background-color: rgb(231, 228, 228); 
 
 
 } 
 #navegador > li{
     list-style: none;
+    
 }
 
 #navegador > li > a{
     /* background-color: white; */
    color: rgb(39, 27, 27);
    padding: 8px;
+   font-weight: 600;
+   font-size: 16.5px;
+   border-radius: 5px;
+   
 }
 
 #navegador > li > a:hover{
-    background-color: rgb(20, 238, 238);
+    background-color: white;
+    
 } 
 
 #cont-colaboradores{
