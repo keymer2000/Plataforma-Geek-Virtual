@@ -7,7 +7,7 @@
     padding-left: 0px; 
     display: block;
     padding: 10px;
-    /* background-color: darkgrey; */
+    background-color: darkgrey; 
 
 
 } 
@@ -20,14 +20,17 @@
    color: rgb(39, 27, 27);
    padding: 8px;
 }
-/* 
+
 #navegador > li > a:hover{
-    background-color: rgb(202, 211, 211);
-} */
+    background-color: rgb(20, 238, 238);
+} 
 
 #cont-colaboradores{
     padding: 10px;
 }
+
+#cont-img{
+float: center;}
 
 /* configuracion de estilos para el panel central */
 

@@ -1,14 +1,14 @@
 import React from 'react';
-
+import './../../styles/header.css'
 
 
 function HeaderNav() {
     return (
     <header className="container-fluid ">
-        <div className="row border">
-            <div className="col-lg-8 border">Academia Geek</div>
+        <div className="row border" id="cont-header">
+            <div className="col-lg-8 border" id="logo-academia-geek">Geek Virtual</div>
             <div className="col-lg-4 border">
-                KEYMER ALEXANDER JIMENEZ
+                KEYMER ALEXANDER JIMENEZ JEREZ
             </div>    
         </div>  
     </header>

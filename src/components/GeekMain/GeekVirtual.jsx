@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderNav from './HeaderNav'
-import DashboardNav from './DashboardNav'
+import HeaderNav from './../GeekMain/HeaderNav'
+import DashboardNav from './../GeekMain/DashboardNav'
 
 
 export default function GeekVirtual() {
