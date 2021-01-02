@@ -1,0 +1,15 @@
+#menu-lateral-de-tareas{
+    width: 30%;
+}
+
+#menu-central-de-tareas{
+    width: 70%;
+}
+
+
+
+/* estilos del componente que contiene la estructura para subir las evidencias */
+
+#contenedor-de-evidencias{
+    height: 100%;
+}

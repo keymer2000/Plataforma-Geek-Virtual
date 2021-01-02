@@ -1,4 +1,6 @@
 import React from 'react'
+import './../../styles/ContBootcamp/BootcampMain.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -6,7 +8,7 @@ function BootcampMain() {
     return (
         <div className="container-fluid">
             <div className="row border">
-            <section className="col-" id="menu-lateral-de-tareas">
+            <section className="col- border border-success" id="menu-lateral-de-tareas">
                 <ul>
                     <li><span><a href="">RETOS DE FORMACIÓN</a></span>
                         <ul>
@@ -52,8 +54,33 @@ function BootcampMain() {
                     </li>
                 </ul>
             </section>
-            <section className="col- border" id="contenedor-de-evidencias">
-
+            <section className="col- border border-primary" id="menu-central-de-tareas">
+                {/* lo que esta dentro del div con id="contenedor-de-evidencias" va en un componente junto con una hpja de estilo sola */}
+                <div className="border" id="contenedor-de-evidencias">
+                    <div className="border">
+                        <h4 className="col">Sube tu evidencia</h4>
+                        <div>
+                            <form action="" method="get" className="container-fluid">
+                                <div className="form-group col">
+                                    <div className="form-group row border">
+                                        <label htmlFor="" className="col-4" >Url repositorio GitHub</label>
+                                        <input type="text" placeholder="Adjunta tu enlace del repositorio" className="col-8" />
+                                    </div>
+                                    
+                                    <div className="form-group row border">
+                                        <label htmlFor="" className="col-4">Url GitHub pages</label>
+                                        <input type="text" placeholder="Adjunta tu Endpoint-URL" className="col-8"/>
+                                    </div>
+                                   
+                                    <div className="form-group row border">
+                                        <textarea name="" id="" className="col-12" rows="6" placeholder="Conclusiones de la evidencia..." ></textarea>
+                                    </div>
+                                    <button className="btn btn-primary float-right">Contestar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
             </section>
         </div>
