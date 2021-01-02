@@ -6,10 +6,7 @@
     width: 70%;
 }
 
-
-
-/* estilos del componente que contiene la estructura para subir las evidencias */
-
+/* estilo del componente evidence */
 #contenedor-de-evidencias{
     height: 100%;
 }

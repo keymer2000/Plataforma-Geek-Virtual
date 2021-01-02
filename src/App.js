@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import BootcampMain from './components/ContenidoBootcamp/BootcampMain';
 import Posts from './components/GeekMain/Posts';
