@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../styles/posts.css'
+import './../../styles/geekmain/posts.css'
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

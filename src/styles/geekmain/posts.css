@@ -16,7 +16,7 @@
     
 } */
 
-#form-anuncio{
+/* #form-anuncio{
     background-image: url("./../img/desingAnuncio.JPG");
     background-repeat: no-repeat;
     height: 65vh;
@@ -28,7 +28,7 @@
     padding-top: 98px;
     padding-left: 115px;
      /*padding-right: 85px; preguntar al profesor como dejar la caja del anuncio estatica
-  */
+  
     
 }
 
@@ -49,8 +49,8 @@
 
 #tabla-anuncios{
     width: 100%;
-    margin-top: 60px; /* esta linea es para que no se suba la tabla a  la linea del boton */
+    margin-top: 60px; /* esta linea es para que no se suba la tabla a  la linea del boton 
 
-}
+} */
 
 

@@ -1,4 +1,5 @@
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import Login from './components/Login/Login'
 import BootcampMain from './components/ContenidoBootcamp/BootcampMain';
 import Posts from './components/GeekMain/Posts';
 import Main from "./components/Main";
@@ -17,7 +18,16 @@ function App() {
      
         <Switch>
 
-        <Route path="/Posts" exact 
+        <Route path="/Login" exact 
+          render={(props)=><Login {...props} />}>
+          </Route>
+
+          <Route path="/Posts" exact 
+          render={(props)=><Main {...props}
+          contentComponent={Posts} />}>
+          </Route>
+
+          <Route path="/Posts" exact 
           render={(props)=><Main {...props}
           contentComponent={Posts} />}>
           </Route>
@@ -57,7 +67,7 @@ function App() {
           contentComponent={InstructorsMain} />}>
           </Route>
 
-          <Route path="/" exact render={(props)=><Redirect {...props} to="/Posts"></Redirect>}></Route>
+          <Route path="/" exact render={(props)=><Redirect {...props} to="/Login"></Redirect>}></Route>
         </Switch>
       </BrowserRouter>
     </div>

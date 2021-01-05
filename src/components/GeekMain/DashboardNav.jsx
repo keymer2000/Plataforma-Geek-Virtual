@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import './../../styles/dashboard.css'
+import './../../styles/geekmain/dashboard.css'
 import logoMakaia from './../../img/logoMakaia.jpg'
 import logoAgile from './../../img/logoAgile.png'
 import logoEvolution from './../../img/logoEvolution.png'
