@@ -13,7 +13,9 @@ export default function DocMain() {
                 </div>
 
                 <div className="row border mt-4 ">
-                    <div className="col-6 border"><h4 className=" doc-title">Autorizacion de imagen</h4></div>
+                    <div className="col-6 border">
+                        <h4 className=" doc-title">Autorizacion de imagen</h4>
+                    </div>
                     <div className="col-6 border">
                         <iframe src="https://drive.google.com/file/d/1P4w32PMQ6RRwsfl3xxZoP7htf4TVfJxV/preview" width="300" height="200"></iframe>
                     </div>

@@ -1,74 +1,69 @@
 import React from 'react'
 import './../../styles/ContBootcamp/BootcampMain.css'
-import { BrowserRouter, Redirect, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Main from './../Main'
 import Evidence from './../ContenidoBootcamp/Evidence'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolderPlus, faFileCode} from "@fortawesome/free-solid-svg-icons";
 
 function BootcampMain() {
     return (
         <div className="container-fluid">
 
             <BrowserRouter>
-                
-
-
-                <div className="row border">
-                    <section className="col- border border-success" id="menu-lateral-de-tareas">
+                <div className="row" >
+                    <section className="col- border" id="menu-lateral-de-tareas" >
                         <ul>
-                            <li><span><a href="">RETOS DE FORMACIÓN</a></span>
+                            <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/>
+                                <Link href="" style={{color:"black"}} >RETOS DE FORMACIÓN</Link>
                                 <ul>
-                                    <li><span><a href="">Entregas FCC  Web 1-2</a></span>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC  Web 1-2</Link>
                                         <ul>
-                                            <li><span><Link   to="/Evidence/prueba">Pagina tributo</Link></span></li>
-                                            <li><span><Link   to="/Evidence/prueba1">Formulario de encuesta</Link></span></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba">Pagina tributo+</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba1">Formulario de encuesta</Link></li>
                                         </ul>
                                     </li>
-                                    <li><span><a href="">Entregas FCC  Web 3-4-5</a></span>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC  Web 3-4-5</Link>
                                         <ul>
-                                            <li><span><a href="">Página de destino del producto</a></span></li>
-                                            <li><span><a href="">Página de documentación técnica</a></span></li>
-                                            <li><span><a href="">Página web portafolio personal</a></span></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página de destino del producto</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página de documentación técnica</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página web portafolio personal</Link></li>
                                         </ul>
                                     </li>
-                                    <li><span><a href="">Entrega GitBook Web</a></span>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entrega GitBook Web</Link>
                                         <ul>
-                                            <li><span><a href="">Retos Introdución a la Web</a></span></li>
-                                            <li><span><a href="">Retos Fundamentos de programacion Parte I</a></span></li>
-                                            <li><span><a href="">Retos Fundamentos de programacion Parte II</a></span></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Retos Introdución a la Web</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Retos Fundamentos de programacion Parte I</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="" className="estilos-entregas">Retos Fundamentos de programacion Parte II</Link></li>
                                         </ul>
                                     </li>
-                                    <li><span><a href="">Entregas FCC JavaScript</a></span>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC JavaScript</Link>
                                         <ul>
-                                            <li><span><a href="">Comprobador de palindrome</a></span></li>
-                                            <li><span><a href="">Convertidor de números romanos</a></span></li>
-                                            <li><span><a href="">Cifrado de Caesars</a></span></li>
-                                            <li><span><a href="">Validador de números de teléfonos</a></span></li>
-                                            <li><span><a href="">Caja Registradora</a></span></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Comprobador de palindrome</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Convertidor de números romanos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Cifrado de Caesars</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Validador de números de teléfonos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Caja Registradora</Link></li>
                                         </ul>
                                     </li>
-                                    <li><span><a href="">Entregas FCC Bibliotecas Front-end</a></span>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC Bibliotecas Front-end</Link>
                                         <ul>
-                                            <li><span><a href="">Maquína de cotizaciones al azar</a></span></li>
-                                            <li><span><a href="">Visor de Markdown</a></span></li>
-                                            <li><span><a href="">Caja de Ritmos</a></span></li>
-                                            <li><span><a href="">Calculadora de JavaScript</a></span></li>
-                                            <li><span><a href="">Reloj 25 + 5</a></span></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Maquína de cotizaciones al azar</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Visor de Markdown</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Caja de Ritmos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Calculadora de JavaScript</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Reloj 25 + 5</Link></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </section>
-                    <section className="col- border border-primary" id="menu-central-de-tareas">
-                    <Switch>
-
-                        <Route path="/Evidence/prueba" exact render={(props) => <Evidence {...props} />}></Route>
-                        <Route path="/Evidence/prueba1" exact render={(props) => "hola mundo 1"}></Route>
-
-                        
+                    <section className="col- border" id="menu-central-de-tareas">
+                        <Switch>
+                            <Route path="/Evidence/prueba" exact render={(props) => <Evidence {...props} />}></Route>
+                            <Route path="/Evidence/prueba1" exact render={(props) => "hola mundo 1"}></Route>
                         </Switch>
-
                     </section>
                 </div>
             </BrowserRouter>

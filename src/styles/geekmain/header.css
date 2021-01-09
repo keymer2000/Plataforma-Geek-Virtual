@@ -1,6 +1,6 @@
 #cont-header{
     background-color: rgb(91, 91, 248);
-    
+    height: auto;
 }
 
 #logo-academia-geek{
@@ -8,5 +8,5 @@
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    padding-left: 30px;
+    margin-bottom: 0;
 }

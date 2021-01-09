@@ -8,7 +8,6 @@ import logoEvolution from './../../img/logoEvolution.png'
 // import Posts from './../GeekMain/Posts';
 
 export default function DashboardNav(props) {
-    console.log(props.match)
     return (
         <div className="container-fluid mt-4 border border-dark">
             <div className="row">
