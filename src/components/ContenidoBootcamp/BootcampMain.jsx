@@ -19,7 +19,7 @@ function BootcampMain() {
                                 <ul>
                                     <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC  Web 1-2</Link>
                                         <ul>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba">Pagina tributo+</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba">Página tributo</Link></li>
                                             <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba1">Formulario de encuesta</Link></li>
                                         </ul>
                                     </li>

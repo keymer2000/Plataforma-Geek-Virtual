@@ -46,7 +46,7 @@ class Posts extends Component {
                 <br />
                 <div className="border" style={{ display: "flex" }} >
                     <h1 style={{ marginLeft: "10px" }}><FontAwesomeIcon icon={faBell} style={{ color: "f0f3", marginRight: "10px" }} />Anuncios</h1>
-                    <button className="btn btn-warning" style={{ fontWeight: "900", margin: "auto", fontSize: "25px", fontFamily: "sans-serif", width: "35%", color: "black" }} onClick={this.abrirModal}><u>Clic para crear anuncio</u></button>
+                    {/* <button className="btn btn-warning" style={{ fontWeight: "900", margin: "auto", fontSize: "25px", fontFamily: "sans-serif", width: "35%", color: "black" }} onClick={this.abrirModal}><u>Clic para crear anuncio</u></button> */}
                 </div>
                 <br/>
                 <div className="container-fluid">
@@ -62,8 +62,14 @@ class Posts extends Component {
                 </div>
             </div>
 
+
+            // no puedo mostrar los anuncios con la ventana modal porque nose como llamar otra tabla de json
+
         )
     }
 }
 
 export default Posts
+
+
+

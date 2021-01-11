@@ -1,38 +1,82 @@
-import React from 'react'
-import './../../styles/ContBootcamp/evidence.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Component } from 'react';
 
 
-class Evidence extends React.Component {
-    render(){
-        return (
-            <div className="border" id="contenedor-de-evidencias">
-                    <div className="border">
-                        <h4 className="col">Sube tu evidencia</h4>
-                        <div>
-                            <form action="" method="get" className="container-fluid">
-                                <div className="form-group col">
-                                    <div className="form-group row border">
-                                        <label htmlFor="" className="col-4" >Url repositorio GitHub</label>
-                                        <input type="text" placeholder="Adjunta tu enlace del repositorio" className="col-8" />
-                                    </div>
-                                    
-                                    <div className="form-group row border">
-                                        <label htmlFor="" className="col-4">Url GitHub pages</label>
-                                        <input type="text" placeholder="Adjunta tu Endpoint-URL" className="col-8"/>
-                                    </div>
-                                   
-                                    <div className="form-group row border">
-                                        <textarea name="" id="" className="col-12" rows="6" placeholder="Conclusiones de la evidencia..." ></textarea>
-                                    </div>
-                                    <button className="btn btn-primary float-right">Contestar</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-        )
+// data
+import { tareas } from './tareas.json';
+
+// subcomponents
+import FormEvidencia from './FormEvidencia';
+
+class Evidence extends Component {
+  constructor() {
+    super();
+    this.state = {
+      tareas
     }
+    this.handleAddTarea = this.handleAddTarea.bind(this);
+  }
+
+  removeTarea(index) {
+    this.setState({
+      tareas: this.state.tareas.filter((e, i) => {
+        return i !== index
+      })
+    });
+  }
+
+  handleAddTarea(tarea) {
+    this.setState({
+      tareas: [...this.state.tareas, tarea]
+    })
+  }
+
+  render() {
+    const tareas = this.state.tareas.map((tarea, i) => {
+      return (
+        <div className="container border border-primary"  key={i}>
+          <div className="row border mt-3">
+            <div className="col-10 border border-warning" style={{margin:"auto"}}>              
+                <div className="row" >
+                    <div className="col-12 card-header">
+                        <p ><strong>Url GitHub:</strong> {tarea.entrega_1}</p>
+                        <p><strong>Url Endpoint:</strong> {tarea.entrega_2}</p>
+                        <p><strong>Conlusion:</strong><br/>{tarea.conclusion}</p>
+                    </div>
+                    <div className="col-12 card-footer text-center">
+                      <button
+                        className="btn btn-danger"
+                        onClick={this.removeTarea.bind(this, i)}>
+                        Delete
+                      </button>
+                    </div>         
+                </div>   
+            </div>
+          </div>
+        </div>
+      )
+    });
+
+    // RETURN THE COMPONENT
+    return (
+      <div >
+
+        <div className="">
+          <div className="">
+            <div className="" >
+              <FormEvidencia onAddTarea={this.handleAddTarea}></FormEvidencia>
+            </div>
+            <br/>
+            <br/>
+            <div className="">
+              <div className="">
+                {tareas}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default Evidence
+export default Evidence;

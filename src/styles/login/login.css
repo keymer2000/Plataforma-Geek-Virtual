@@ -1,4 +1,4 @@
-.containerPrincipal {
+/* .containerPrincipal {
     position: absolute;
     left: 50%;
     top: 10%;
@@ -11,4 +11,9 @@
 .containerSecundario{
     text-align: center;
    
+} */
+
+#cont-general{
+    margin-top: 8%;
 }
+
