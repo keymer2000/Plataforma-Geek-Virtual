@@ -18,7 +18,7 @@ export default function DashboardNav(props) {
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/BootcampMain"?" active": "")} to="/BootcampMain">Contenido del bootcamp</Link></li>
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/ForumMain"?" active": "")}   to="/ForumMain">Foro Social</Link></li>
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/TaskMain"?" active": "")}   to="/TaskMain">Tareas</Link></li>
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/PortfolioMain"?" active": "")}   to="/PortfolioMain">Portafolio de Evidencias</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/PortfolioMain"?" active": "")}   to="/PortfolioMain">Cronograma General</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/DocMain"?" active": "")} to="/DocMain">Documentación reglamentaria</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/ParticipantsMain"?" active": "")} to="/ParticipantsMain">Participantes</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/InstructorsMain"?" active": "")} to="/InstructorsMain">Instructores</Link></li>

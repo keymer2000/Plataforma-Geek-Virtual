@@ -21,20 +21,17 @@ class ParticipantsMain extends Component{
     render(){
     return (
         <div>
-           <h1 className="text-center">Participantes</h1>
-            <table className="mt-4 table " style={{width:"70%", margin:"auto", height:"auto"}}>
-                <thead>
-                    <tr>
-                        <th>imagen</th>
-                        <th>Nombre completo</th>
-                    </tr>
-                </thead>
+           <h1 className="text-center mt-5" style={{fontFamily:"Georgia"}}>Participantes</h1>
+            <table className="mt-5 table " style={{width:"70%", margin:"auto", height:"auto"}}>
                 <tbody>
                     {this.state.data.map((usuario, i) =>{
                         return(
                             <tr key={i}>
                                 <td >
-
+                                    <div  style={{width:"110px", height:"80px"}}>
+                                        <img className="img-fluid"  style={{minWidth:"110px", maxWidth:"110px", height:"80px"}}  src={usuario.foto} alt=""/> 
+                                    </div>
+                                    
                                 </td>
                                 <td >
                                     <a href="" style={{color:"black", fontSize:"18px"}} >

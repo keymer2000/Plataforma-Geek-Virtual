@@ -52,7 +52,7 @@ class FormEvidencia extends Component {
                                 name="entrega2"
                                 type="text" 
                                 className="col-8"
-                                placeholder="Adjunta tu Endpoint-entrega" 
+                                placeholder="Adjunta tu Endpoint de la evidencia" 
                                 value={this.state.entrega2}
                                 onChange={this.handleInputChange}
                             />
