@@ -26,8 +26,8 @@ class ParticipantsMain extends Component{
                 <tbody>
                     {this.state.data.map((usuario, i) =>{
                         return(
-                            <tr key={i} style={{borderTop:"1px solid black"}}>
-                                <td >
+                            <tr  key={i} style={{borderTop:"1px solid black"}}>
+                                <td className="p-2" >
                                     <div  style={{width:"110px", height:"80px"}}>
                                         <img className="img-fluid"  style={{minWidth:"110px", maxWidth:"110px", height:"80px"}}  src={usuario.foto} alt=""/> 
                                     </div>

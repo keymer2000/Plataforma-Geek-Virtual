@@ -24,18 +24,18 @@ export default function DashboardNav(props) {
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/InstructorsMain"?" active": "")} to="/InstructorsMain">Instructores</Link></li>
                         </ul>
                     </nav>
-                    <div id="cont-colaboradores">
-                        <div id="cont-img" className="border">
+                    <hr/>
+                    <div  id="cont-colaboradores">
+                        <div id="cont-img" className="text-center mt-4">
+                        <h3>Fundadores</h3>
                             <div className=" border">
-
-                                <a href="" alt=""><img className="border img-fluid" src={logoMakaia} alt="" width="150px" /></a>
+                                <a href="" alt=""><img className=" img-fluid" src={logoMakaia} alt="" width="150px" /></a>
                             </div>
                             <div className=" border">
-                                <a href="" alt=""><img className="border img-fluid" src={logoAgile} alt="" width="150px" /></a>
+                                <a href="" alt=""><img className=" img-fluid" src={logoAgile} alt="" width="150px" /></a>
                             </div>
                             <div className=" border">
-
-                                <a href="" alt=""><img className="border img-fluid" src={logoEvolution} alt="" width="150px" /></a>
+                                <a href="" alt=""><img className=" img-fluid" src={logoEvolution} alt="" width="150px" /></a>
                             </div>
                         </div>
                     </div>

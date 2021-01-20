@@ -33,7 +33,7 @@ class TodoForm extends Component {
 
   render() {
     return (
-      <div className="card border border-primary" >
+      <div className="card border border-primary"  >
         <form onSubmit={this.handleSubmit} className="card-body">
           <div className="form-group">
             <input
@@ -56,7 +56,7 @@ class TodoForm extends Component {
               />
           </div>
           <div className="form-group">
-            <input
+            <textarea
               type="text"
               name="description"
               className="form-control"

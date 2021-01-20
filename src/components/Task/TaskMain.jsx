@@ -45,7 +45,7 @@ class TaskMain extends Component {
                 <p><strong>Responsable(s): </strong>{todo.responsible}</p>
                 <br/>
                 <br/>
-                {todo.description}
+                <p><strong>Descripcion: </strong>{todo.description}</p>
             </div>
             <div className="card-footer text-center">
               <button
@@ -74,7 +74,7 @@ class TaskMain extends Component {
 
         <div className="container">
           <div className="row mt-4">
-            <div className="col-md-4 text-center" style={{margin:"auto"}}>
+            <div className="col-md-6 text-center" style={{margin:"auto"}}>
               <TodoForm onAddTodo={this.handleAddTodo}></TodoForm>
             </div>
 
