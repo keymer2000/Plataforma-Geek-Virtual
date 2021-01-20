@@ -38,9 +38,9 @@ class Evidence extends Component {
             <div className="col-10 border border-warning" style={{margin:"auto"}}>              
                 <div className="row" >
                     <div className="col-12 card-header">
-                        <p ><strong>Url GitHub:</strong> {tarea.entrega_1}</p>
-                        <p><strong>Url Endpoint:</strong> {tarea.entrega_2}</p>
-                        <p><strong>Conlusion:</strong><br/>{tarea.conclusion}</p>
+                        <p><strong>Url GitHub:</strong> {tarea.entrega1}</p>
+                        <p><strong>Url Endpoint:</strong> {tarea.entrega2}</p>
+                        <p><strong>Conlusión:</strong><br/>{tarea.conclusion}</p>
                     </div>
                     <div className="col-12 card-footer text-center">
                       <button

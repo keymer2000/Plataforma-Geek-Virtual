@@ -22,11 +22,11 @@ class ParticipantsMain extends Component{
     return (
         <div>
            <h1 className="text-center mt-5" style={{fontFamily:"Georgia"}}>Participantes</h1>
-            <table className="mt-5 table " style={{width:"70%", margin:"auto", height:"auto"}}>
+            <table className="mt-5  " style={{width:"70%", margin:"auto", height:"auto"}}>
                 <tbody>
                     {this.state.data.map((usuario, i) =>{
                         return(
-                            <tr key={i}>
+                            <tr key={i} style={{borderTop:"1px solid black"}}>
                                 <td >
                                     <div  style={{width:"110px", height:"80px"}}>
                                         <img className="img-fluid"  style={{minWidth:"110px", maxWidth:"110px", height:"80px"}}  src={usuario.foto} alt=""/> 
@@ -35,10 +35,10 @@ class ParticipantsMain extends Component{
                                 </td>
                                 <td >
                                     <a href="" style={{color:"black", fontSize:"18px"}} >
-                                        {usuario.primer_nombre}
-                                        {usuario.segundo_nombre}
-                                        {usuario.primer_apellido}
-                                        {usuario.segundo_apellido}
+                                        {`${usuario.primer_nombre}
+                                        ${usuario.segundo_nombre}
+                                        ${usuario.primer_apellido}
+                                        ${usuario.segundo_apellido}`}
                                     </a>
                                 </td>
                             </tr> 

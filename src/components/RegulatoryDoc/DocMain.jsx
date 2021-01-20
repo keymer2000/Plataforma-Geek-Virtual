@@ -19,7 +19,7 @@ export default function DocMain() {
                     </tr>
                     <tr className="border ">
                         <td>
-                            <h4>Autorizacion de imagen</h4>
+                            <h4>Autorizacion de uso de imagen</h4>
                         </td>
                         <td>
                             <iframe src="https://drive.google.com/file/d/1P4w32PMQ6RRwsfl3xxZoP7htf4TVfJxV/preview" width="300" height="200"></iframe>

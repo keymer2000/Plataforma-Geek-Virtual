@@ -15,44 +15,44 @@ function BootcampMain() {
                     <section className="col- border" id="menu-lateral-de-tareas" >
                         <ul>
                             <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/>
-                                <Link href="" style={{color:"black"}} >RETOS DE FORMACIÓN</Link>
+                                <Link to="#" style={{color:"black"}} >RETOS DE FORMACIÓN</Link>
                                 <ul>
-                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC  Web 1-2</Link>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link to="#" className="estilos-entregas">Entregas FCC  Web 1-2</Link>
                                         <ul>
                                             <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba">Página tributo</Link></li>
                                             <li><FontAwesomeIcon icon={faFileCode} /><Link to="/Evidence/prueba1">Formulario de encuesta</Link></li>
                                         </ul>
                                     </li>
-                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC  Web 3-4-5</Link>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link to="#" className="estilos-entregas">Entregas FCC  Web 3-4-5</Link>
                                         <ul>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página de destino del producto</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página de documentación técnica</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Página web portafolio personal</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Página de destino del producto</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Página de documentación técnica</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Página web portafolio personal</Link></li>
                                         </ul>
                                     </li>
-                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entrega GitBook Web</Link>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link to="#" className="estilos-entregas">Entrega GitBook Web</Link>
                                         <ul>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Retos Introdución a la Web</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Retos Fundamentos de programacion Parte I</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="" className="estilos-entregas">Retos Fundamentos de programacion Parte II</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Retos Introdución a la Web</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Retos Fundamentos de programacion Parte I</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#" className="estilos-entregas">Retos Fundamentos de programacion Parte II</Link></li>
                                         </ul>
                                     </li>
-                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC JavaScript</Link>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link to="#" className="estilos-entregas">Entregas FCC JavaScript</Link>
                                         <ul>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Comprobador de palindrome</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Convertidor de números romanos</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Cifrado de Caesars</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Validador de números de teléfonos</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Caja Registradora</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Comprobador de palindrome</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Convertidor de números romanos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Cifrado de Caesars</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Validador de números de teléfonos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Caja Registradora</Link></li>
                                         </ul>
                                     </li>
-                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link href="" className="estilos-entregas">Entregas FCC Bibliotecas Front-end</Link>
+                                    <li style={{listStyle:"none"}}><FontAwesomeIcon icon={faFolderPlus} style={{fontSize:"20px"}}/><Link to="#" className="estilos-entregas">Entregas FCC Bibliotecas Front-end</Link>
                                         <ul>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Maquína de cotizaciones al azar</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Visor de Markdown</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Caja de Ritmos</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Calculadora de JavaScript</Link></li>
-                                            <li><FontAwesomeIcon icon={faFileCode} /><Link href="">Reloj 25 + 5</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Maquína de cotizaciones al azar</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Visor de Markdown</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Caja de Ritmos</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Calculadora de JavaScript</Link></li>
+                                            <li><FontAwesomeIcon icon={faFileCode} /><Link to="#">Reloj 25 + 5</Link></li>
                                         </ul>
                                     </li>
                                 </ul>

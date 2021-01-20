@@ -10,49 +10,40 @@
     
 }
 
-/* #generador-anuncios{
-   
-   display: block;
-   width: 80%;
-   margin: auto;  
-    
-} */
+#cont-icon-anuncio-boton{
+    display: flex;
+}
 
-/* #form-anuncio{
-    background-image: url("./../img/desingAnuncio.JPG");
+#title-anuncio{
+    margin-left: 10px;
+}
+
+#icon-anuncio{
+    color: black;
+    margin-right: 10px;
+
+}
+
+#boton-modal-anuncio{
+    font-weight: 900;
+    margin: auto;
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 35%;
+    color: black;
+    
+}
+
+#cont-fila-anuncio{
+    background-image: url(../../img/anuncio.JPG);
     background-repeat: no-repeat;
-    height: 65vh;
 }
 
+#area-anuncio{
+    margin-left: 90px;
+    margin-top: 80px;
+    width: 470px;
+    height: auto;
+    font-weight: 600;
 
-#text-area-buton{
-    width: 52%;
-    padding-top: 98px;
-    padding-left: 115px;
-     /*padding-right: 85px; preguntar al profesor como dejar la caja del anuncio estatica
-  
-    
 }
-
-
-#area-publicar-anuncio{
-    height: 240px;
-    border-radius: 28px;
-}
-
-
-#boton-publicar-anuncion{
-    float: right;
-    margin-top: 30px;
-    display: block;
-    
-} 
-
-
-#tabla-anuncios{
-    width: 100%;
-    margin-top: 60px; /* esta linea es para que no se suba la tabla a  la linea del boton 
-
-} */
-
-
