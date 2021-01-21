@@ -7,7 +7,7 @@ class FormularioSocial extends Component {
     constructor() {
         super();
         this.state = {
-            comentar: true,
+            comentar: false,
             data: [],
             form: {
                 id: '',
@@ -44,7 +44,6 @@ class FormularioSocial extends Component {
             }
         });
         // console.log(this.state.form);
-
     }
     componentDidMount() {
         this.peticionGet();
@@ -91,7 +90,7 @@ class FormularioSocial extends Component {
                             <div className="mt-3" key={i}  >
                                 <div className="border p-4" style={{ borderRadius: "10px" }} >
                                     <p>{consulta.tema}</p>
-                                    {/* <a href="" onClick={() => this.comentar()}>Comentar</a> */}
+                                    {/* <a to="" onClick={() => this.comentar()}>Comentar</a> */}
                                 </div>
                             </div>
                         )

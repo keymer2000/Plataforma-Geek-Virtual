@@ -25,8 +25,6 @@ class Login extends Component {
             }
 
         });
-
-
     }
 
     iniciarSesion = async () => {

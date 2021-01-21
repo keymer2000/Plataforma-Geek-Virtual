@@ -42,7 +42,7 @@ class TodoForm extends Component {
               className="form-control"
               value={this.state.title}
               onChange={this.handleInputChange}
-              placeholder="Title"
+              placeholder="Titulo"
               />
           </div>
           <div className="form-group">
@@ -52,7 +52,7 @@ class TodoForm extends Component {
               className="form-control"
               value={this.state.responsible}
               onChange={this.handleInputChange}
-              placeholder="Responsible"
+              placeholder="Responsable"
               />
           </div>
           <div className="form-group">
@@ -62,7 +62,7 @@ class TodoForm extends Component {
               className="form-control"
               value={this.state.description}
               onChange={this.handleInputChange}
-              placeholder="Description"
+              placeholder="Descripción"
               />
           </div>
           <div className="form-group">
@@ -72,9 +72,10 @@ class TodoForm extends Component {
                 value={this.state.priority}
                 onChange={this.handleInputChange}
               >
-              <option>low</option>
-              <option>medium</option>
-              <option>high</option>
+              <option>Seleccionar prioridad</option>
+              <option>Baja</option>
+              <option>Media</option>
+              <option>Alta</option>
             </select>
           </div>
           <button type="submit" className="btn btn-primary">
