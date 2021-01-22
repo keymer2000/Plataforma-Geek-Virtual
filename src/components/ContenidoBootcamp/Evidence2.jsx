@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 // data
 import { tareas } from './tareas.json';
 
@@ -34,13 +33,13 @@ class Evidence extends Component {
     const tareas = this.state.tareas.map((tarea, i) => {
       return (
         <div className="container border border-primary"  key={i}>
-          <div className="row mt-2 mb-2">
-            <div className="col-10 border " style={{margin:"auto"}}>              
+          <div className="row mt-3">
+            <div className="col-10 border border-warning" style={{margin:"auto"}}>              
                 <div className="row" >
                     <div className="col-12 card-header">
                         <p><strong>Url GitHub:</strong> {tarea.entrega1}</p>
                         <p><strong>Url Endpoint:</strong> {tarea.entrega2}</p>
-                        <p><strong>Conlusión:</strong> {tarea.conclusion}</p>
+                        <p><strong>Conlusión:</strong><br/>{tarea.conclusion}</p>
                     </div>
                     <div className="col-12 card-footer text-center">
                       <button
@@ -59,14 +58,17 @@ class Evidence extends Component {
     // RETURN THE COMPONENT
     return (
       <div >
+
         <div className="">
           <div className="">
             <div className="" >
               <FormEvidencia onAddTarea={this.handleAddTarea}></FormEvidencia>
             </div>
-            <div className="mt-3">
+            <br/>
+            <br/>
+            <div className="">
               <div className="">
-                {tareas}
+                {/* {tareas} */}
               </div>
             </div>
           </div>

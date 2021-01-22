@@ -1,13 +1,12 @@
-#cont-title-geek{
-    background-color: rgb(91, 91, 248);
-}
+/* #cont-title-geek{
+    background-color: #d2fefb;
+} */
 
 #title-geek{
     text-align: center;
     font-size: 9rem;
-    color: white;
-    
-    
+    font-weight: 700;
+    color: rgb(9, 139, 148);
 }
 
 #cont-icon-anuncio-boton{

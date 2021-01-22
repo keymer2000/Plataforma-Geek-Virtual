@@ -58,7 +58,7 @@ class FormularioSocial extends Component {
                     <div className="card">
                         <div className="card-header" id="headingOne">
                             <h5 className="mb-0">
-                                <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color:"black"}}>
+                                <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{ color: "black" }}>
                                     Su nuevo tema de consulta
                         </button>
                             </h5>
@@ -84,19 +84,19 @@ class FormularioSocial extends Component {
                     </div>
                 </div>
                 <hr />
-                <div className="mt-5" style={{ width: "95%", margin: "auto" }}>
+                {/* <h1 className="text-center">Temas</h1> */}
+                <div className="mt-4" style={{ width: "95%", margin: "auto" }}>
                     {this.state.data.map((consulta, i) => {
                         return (
                             <div className="mt-3" key={i}  >
-                                <div className="border p-4" style={{ borderRadius: "10px" }} >
+                                <div className="card-header border border-primary p-4" style={{ borderRadius: "10px" }} >
                                     <p>{consulta.tema}</p>
-                                    {/* <a to="" onClick={() => this.comentar()}>Comentar</a> */}
                                 </div>
                             </div>
                         )
                     })}
-                </div>
             </div>
+            </div >
 
         )
     }

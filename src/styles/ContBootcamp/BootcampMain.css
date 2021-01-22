@@ -6,6 +6,10 @@
     width: 70%;
 }
 
+/* .contenedor:hover .imagen {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.contenedor {overflow:hidden;} */
+
+
 /* estilo del componente evidence */
 #contenedor-de-evidencias{
     height: 100%;
@@ -14,7 +18,7 @@
 #menu-lateral-de-tareas{
    height: 100vh;
    overflow-y: scroll;
-   overflow-x: scroll;
+   /* overflow-x: scroll; */
 }
 
 #menu-lateral-de-tareas > ul > li > ul > li > a{

@@ -47,7 +47,7 @@ function App() {
           contentComponent={TaskMain} />}>
           </Route>
 
-          <Route path="/PortfolioMain" exact 
+          <Route path="/Cronograma-general" exact 
           render={(props)=><Main {...props} 
           contentComponent={PortfolioMain} />}>
           </Route>
@@ -67,7 +67,9 @@ function App() {
           contentComponent={InstructorsMain} />}>
           </Route>
 
-          <Route path="/Plataforma-Geek-Virtual" exact render={(props)=><Redirect {...props} to="/Login"></Redirect>}></Route>
+          <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
+            <Redirect {...props} to="/Login"></Redirect>}>
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
