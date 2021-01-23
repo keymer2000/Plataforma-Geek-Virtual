@@ -7,26 +7,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
 const baseUrl = "fuente-de-datos-geek-virtual-7azr90uoz.vercel.app/usuarios";
-
 class Login extends Component {
     state = {
         form: {
             username: '',
             password: ''
         }
-
     }
-
     handleChange = async e => {
         await this.setState({
             form: {
                 ...this.state.form,
                 [e.target.name]: e.target.value
             }
-
         });
     }
-
     iniciarSesion = async () => {
         await axios.get(baseUrl, { params: { username: this.state.form.username, password: this.state.form.password } })
             .then(response => {
@@ -41,7 +36,6 @@ class Login extends Component {
                 }
 
             })
-
             .catch(error => {
                 console.log(error)
             })
