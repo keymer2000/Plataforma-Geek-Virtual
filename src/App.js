@@ -26,11 +26,11 @@ function App() {
           render={(props)=><Main {...props}
           contentComponent={Posts} />}>
           </Route>
-
+{/* 
           <Route path="/Posts" exact 
           render={(props)=><Main {...props}
           contentComponent={Posts} />}>
-          </Route>
+          </Route> */}
 
           <Route path="/BootcampMain" exact 
           render={(props)=><Main {...props} 
