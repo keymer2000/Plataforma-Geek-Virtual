@@ -32,7 +32,7 @@ class Login extends Component {
             })
             .then(response => {
                 if (response.length > 0) {
-                    // alert('bienvenido: '+`${response.username}`)
+                    alert('bienvenido: '+`${response.username}`)
                     window.location.href = "/Posts"
                 } else {
                     alert("El usuario o la contraseña no son correctos")
@@ -40,7 +40,7 @@ class Login extends Component {
 
             })
             .catch(error => {
-                // console.log(error);
+                console.log(error);
             })
     }
 

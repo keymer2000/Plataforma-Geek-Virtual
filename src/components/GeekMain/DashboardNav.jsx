@@ -14,7 +14,7 @@ export default function DashboardNav(props) {
                 <section className="col- border border-dark" id="cont-navegador">
                     <nav className="" >
                         <ul className="nav nav-tabs" id="navegador">
-                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/Posts"?" active": "")}   to="/Posts">Anuncios</Link></li>
+                            <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/Posts"?" active": "")}to="Posts">Anuncios</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/BootcampMain"?" active": "")} to="/BootcampMain">Contenido del bootcamp</Link></li>
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/ForumMain"?" active": "")}   to="/ForumMain">Foro Social</Link></li>
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/TaskMain"?" active": "")}   to="/TaskMain">Tareas</Link></li>
