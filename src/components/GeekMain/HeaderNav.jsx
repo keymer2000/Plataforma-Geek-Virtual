@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './../../styles/geekmain/header.css'
 import perfil from '../../img/perfil.jpg'
 
-function HeaderNav() {
-        
+class HeaderNav extends Component {
+    
+    cerrarSesion = async () => {
+        // alert('saliendo....')
+        window.location.href = "/Login"
+   }
+    
+    render(){
     return (
     <header className="container-fluid ">
         <div className="row " id="cont-header">
@@ -24,7 +30,7 @@ function HeaderNav() {
                     </div>
                     <div className="col-3 " >
                         <div className="row pl-1">
-                            <button className="btn btn-danger mt-1">Cerrar Sesión</button>
+                            <button className="btn btn-danger mt-1 " onClick={()=>this.cerrarSesion()} >Cerrar Sesión</button>
                         </div>
                     </div>
                 </div>
@@ -34,6 +40,7 @@ function HeaderNav() {
     </header>
 
     )
+    }
 }
 
 export default HeaderNav;
