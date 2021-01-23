@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Plataforma-Geek-Virtual/static/css/main.6f1a2941.chunk.css",
-    "main.js": "/Plataforma-Geek-Virtual/static/js/main.07ddadb1.chunk.js",
-    "main.js.map": "/Plataforma-Geek-Virtual/static/js/main.07ddadb1.chunk.js.map",
+    "main.js": "/Plataforma-Geek-Virtual/static/js/main.e1f4cfac.chunk.js",
+    "main.js.map": "/Plataforma-Geek-Virtual/static/js/main.e1f4cfac.chunk.js.map",
     "runtime-main.js": "/Plataforma-Geek-Virtual/static/js/runtime-main.e68a9030.js",
     "runtime-main.js.map": "/Plataforma-Geek-Virtual/static/js/runtime-main.e68a9030.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/Plataforma-Geek-Virtual/static/css/2.20aa2d7b.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.f9424136.chunk.js",
     "static/css/main.6f1a2941.chunk.css",
-    "static/js/main.07ddadb1.chunk.js"
+    "static/js/main.e1f4cfac.chunk.js"
   ]
 }
