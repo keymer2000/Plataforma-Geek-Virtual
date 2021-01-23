@@ -91,7 +91,7 @@ class Posts extends Component {
                         <div>
                             <form action="" >
                                 <textarea name="textAnuncio" value={form.textAnuncio} id="" cols="63" rows="8" placeholder="Escriba su anuncio..." onChange={this.handleChange}></textarea>
-                                <input type="text" name="enlace" value={form.enlace} placeholder="adjunte el enlace de la reunion" style={{width:"100%"}} onChange={this.handleChange} />
+                                <input type="text" name="enlace" value={form.enlace} placeholder="Adjunte enlace:" style={{width:"100%"}} onChange={this.handleChange} />
                                 
                             </form>
                         </div>
