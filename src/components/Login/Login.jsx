@@ -6,7 +6,7 @@ import desktop from '../../img/desktop.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
-const baseUrl = "http://localhost:3000/usuarios";
+const baseUrl = "http://localhost:3001/usuarios";
 class Login extends Component {
     state = {
         form: {
