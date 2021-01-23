@@ -18,7 +18,7 @@ function App() {
      
         <Switch>
 
-        <Route path="/Login" exact 
+        <Route path="/Plataforma-Geek-Virtual" exact 
           render={(props)=><Login {...props} />}>
           </Route>
 {/* 
@@ -67,9 +67,9 @@ function App() {
           contentComponent={InstructorsMain} />}>
           </Route>
 
-          <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
+          {/* <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
             <Redirect {...props} to="/Login"></Redirect>}>
-          </Route>
+          </Route> */}
         </Switch>
       </BrowserRouter>
     </div>
