@@ -23,13 +23,16 @@ class Login extends Component {
         });
     }
     iniciarSesion = async () => {
-        await axios.get(baseUrl, { params: { username: this.state.form.username, password: this.state.form.password } })
+         axios.get(`${baseUrl}?username=${this.state.form.username}&password=${this.state.form.password}`)
             .then(response => {
+                console.log(response.data);
                 return response.data;
                 // this.props.history.push("/Posts") 
+                
             })
             .then(response => {
                 if (response.length > 0) {
+                    alert('bienvenido: ' + response.username)
                     window.location.href = "/Posts"
                 } else {
                     alert("El usuario o la contraseña no son correctos")
