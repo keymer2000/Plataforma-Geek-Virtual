@@ -17,23 +17,20 @@ function App() {
       <BrowserRouter>
      
         <Switch>
-        <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
-            <Redirect {...props} to="/Login"></Redirect>}>
-          </Route>
 
-        <Route path="/Login" exact 
+        <Route path="/Plataforma-Geek-Virtual" exact 
           render={(props)=><Login {...props} />}>
-          </Route>
-
-          <Route path="/Posts" exact 
-          render={(props)=><Main {...props}
-          contentComponent={Posts} />}>
           </Route>
 {/* 
           <Route path="/Posts" exact 
           render={(props)=><Main {...props}
           contentComponent={Posts} />}>
           </Route> */}
+
+          <Route path="/Posts" exact 
+          render={(props)=><Main {...props}
+          contentComponent={Posts} />}>
+          </Route>
 
           <Route path="/BootcampMain" exact 
           render={(props)=><Main {...props} 
@@ -70,7 +67,9 @@ function App() {
           contentComponent={InstructorsMain} />}>
           </Route>
 
-          
+          {/* <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
+            <Redirect {...props} to="/Login"></Redirect>}>
+          </Route> */}
         </Switch>
       </BrowserRouter>
     </div>
