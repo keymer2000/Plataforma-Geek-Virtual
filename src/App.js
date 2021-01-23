@@ -67,7 +67,7 @@ function App() {
           contentComponent={InstructorsMain} />}>
           </Route>
 
-          <Route path="/" exact render={(props)=>
+          <Route path="/Plataforma-Geek-Virtual" exact render={(props)=>
             <Redirect {...props} to="/Login"></Redirect>}>
           </Route>
         </Switch>
