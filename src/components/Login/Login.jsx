@@ -6,7 +6,7 @@ import desktop from '../../img/desktop.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
-const baseUrl = "http://localhost:3001/usuarios";
+const baseUrl = "fuente-de-datos-geek-virtual-7azr90uoz.vercel.app/usuarios";
 
 class Login extends Component {
     state = {
