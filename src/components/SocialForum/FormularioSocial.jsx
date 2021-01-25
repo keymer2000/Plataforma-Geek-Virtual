@@ -1,7 +1,9 @@
 import React from 'react'
 import { Component } from 'react';
 import axios from 'axios'
+
 const url = "https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/foro"
+
 
 class FormularioSocial extends Component {
     constructor() {
@@ -96,6 +98,7 @@ class FormularioSocial extends Component {
                         )
                     })}
             </div>
+            
             </div >
 
         )

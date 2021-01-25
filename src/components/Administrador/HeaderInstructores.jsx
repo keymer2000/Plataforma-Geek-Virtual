@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import '../../../src/styles/geekmain/header.css'
+import './headerinstructores.css'
 import perfil from '../../img/perfil.jpg'
 import LogoGV from '../../img/LogoGV.png'
-
 
 class HeaderNav extends Component {
     
@@ -27,7 +26,7 @@ class HeaderNav extends Component {
                     </div>
                     <div className="col-7 border-right " >
                         <div className="row pl-1">
-                            <p className="ml-4 pt-2" >KEYMER ALEXANDER JIMENEZ JEREZ</p>
+                            <strong className="ml-4 pt-2" style={{fontSize:"18px"}} >Administrador</strong>
                         </div>
                     </div>
                     <div className="col-3 " >

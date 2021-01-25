@@ -5,6 +5,7 @@ import 'react-bootstrap'
 import FormularioSocial from "./FormularioSocial";
 
 
+
 class ForumMain extends Component {
     render(){
     return (

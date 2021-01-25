@@ -1,5 +1,6 @@
 import React from 'react'
 import './../../styles/RegulatoryDoc/documentacion.css'
+import FormularioDoc from './FormularioDoc'
 
 export default function DocMain() {
     return (
@@ -44,7 +45,8 @@ export default function DocMain() {
                 
             </table>
             <div className="mb-5" style={{ width: "80%", margin: "auto" }}>
-                    <form >
+                <FormularioDoc></FormularioDoc>
+                    {/* <form >
                         <div class="custom-file">
                             <input type="file" id="validatedCustomFile1" required />
                             <label class="custom-file-label" for="validatedCustomFile1">Adjuntar Autorizacion de datos personales...</label>
@@ -61,7 +63,7 @@ export default function DocMain() {
                             <input type="file" id="validatedCustomFile3" required />
                             <label class="custom-file-label" for="validatedCustomFile3">Adjuntar Acta de compromiso de recepción de beca...</label>
                         </div>
-                    </form>
+                    </form> */}
                 </div>
 
         </div>

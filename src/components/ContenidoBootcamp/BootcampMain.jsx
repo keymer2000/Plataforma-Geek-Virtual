@@ -6,7 +6,6 @@ import Evidence from './../ContenidoBootcamp/Evidence'
 import Evidence2 from './../ContenidoBootcamp/Evidence2'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolderPlus, faFileCode} from "@fortawesome/free-solid-svg-icons";
-import LogoGeek from '../../img/LogoGeek.jpg'
 
 function BootcampMain() {
     return (
@@ -62,11 +61,6 @@ function BootcampMain() {
                         </ul>
                     </section>
                     <section className="col- border" id="menu-central-de-tareas">
-                        <div className="contenedor text-center">
-                            <marquee behavior="alternate" direction="up">
-                                <marquee behavior="alternate" direction="right">
-                            <img className="img-fluid imagen " src={LogoGeek} alt="" style={{height:"100px"}} /></marquee></marquee>
-                        </div>
                         <Switch>
                             <Route path="/Evidence/pagina-tributo" exact render={(props) => <Evidence {...props} />}></Route>
                             <Route path="/Evidence2/prueba2" exact render={(props) => <Evidence2 {...props} />}></Route>
