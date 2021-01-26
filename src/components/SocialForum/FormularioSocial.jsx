@@ -93,6 +93,8 @@ class FormularioSocial extends Component {
                             <div className="mt-3" key={i}  >
                                 <div className="card-header border border-primary p-4" style={{ borderRadius: "10px" }} >
                                     <p>{consulta.tema}</p>
+                                    <a href="" alt="">Comentar</a><br/>
+                                    <textarea name="" id="" rows="3" placeholder="Escribe tu comentario..." style={{width:"100%"}}></textarea>
                                 </div>
                             </div>
                         )
