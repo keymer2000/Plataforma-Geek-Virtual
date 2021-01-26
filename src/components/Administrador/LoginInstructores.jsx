@@ -57,7 +57,7 @@ class LoginInstructores extends Component {
                 <div className="mt-lg-3 text-center ">
                     <img style={{width:"280px"}} className="img-fluid " src={desktop} alt=""/>
                 </div>
-                <form className="form-group" >
+                <div className="form-group" >
                     <div className="cont-form-group">
                         <label className="label">Username:</label>
                         <div className="group-icon-input">
@@ -79,7 +79,7 @@ class LoginInstructores extends Component {
                         </div>
                     </div> */}
                     <button className="button-login" onClick={() => this.iniciarSesionInstructores()}  >Iniciar Sesión</button>    
-                </form>
+                </div>
                 
             </div>
         )
