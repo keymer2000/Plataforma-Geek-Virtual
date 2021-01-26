@@ -3,7 +3,7 @@ import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import perfil from '../../img/perfil.jpg'
 
-const url = "https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/instructores";
+const url = "https://fuente-de-datos-geek-virtual-git-master.keymer2000.vercel.app/instructores";
 
 
 class InstructorsMain extends Component {

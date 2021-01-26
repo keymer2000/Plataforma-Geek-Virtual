@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 // import { faFacebook } from "@fortawesome/free-brands-svg-icons"; ESTE PERTENE A LOS ICONOS DE MARCAS
 
-const url = "https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/anuncios"
+const url = "https://fuente-de-datos-geek-virtual.keymer2000.vercel.app/anuncios"
 
 class Posts extends Component {
     state = {

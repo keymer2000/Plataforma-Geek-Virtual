@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const url="https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/usuarios";
+const url="https://fuente-de-datos-geek-virtual-git-master.keymer2000.vercel.app/usuarios";
 
 class ParticipantsMain extends Component{
     state={
