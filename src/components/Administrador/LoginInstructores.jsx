@@ -24,22 +24,20 @@ class LoginInstructores extends Component {
         });
         // console.log(this.state.form);
     }
-    iniciarSesion = async () => {
-         axios.get(`${baseUrl}?username=${this.state.form.username}&password=${this.state.form.password}`)
-            .then(response => {
-                console.log(response.data);
-                return response.data;
-                // this.props.history.push("/Posts") 
-            })
-            .then(response => {
-                if (response.length > 0) {
-                    alert('bienvenido:')
-                    window.location.href = "/AdministradorMain"
-                } else {
-                    alert("El usuario o la contraseña no son correctos")
-                }
+    iniciarSesionInstructores = async () => {
+        await axios.get(baseUrl, {params: {username: this.state.form.username, password: this.state.form.password}})
+        .then(response=>{
+            console.log(response.data);
+        })
+            // .then(response => {
+            //     if (response.length > 0) {
+            //         alert('bienvenido:')
+            //         window.location.href = "/AdministradorMain"
+            //     } else {
+            //         alert("El usuario o la contraseña no son correctos")
+            //     }
 
-            })
+            // })
             .catch(error => {
                 console.log(error);
             })
@@ -59,7 +57,7 @@ class LoginInstructores extends Component {
                 <div className="mt-lg-3 text-center ">
                     <img style={{width:"280px"}} className="img-fluid " src={desktop} alt=""/>
                 </div>
-                <form >
+                <form className="form-group" >
                     <div className="cont-form-group">
                         <label className="label">Username:</label>
                         <div className="group-icon-input">
@@ -80,9 +78,9 @@ class LoginInstructores extends Component {
                             <p class="form-check-label" for="gridCheck">Recordar Contraseña</p>
                         </div>
                     </div> */}
-                    
+                    <button className="button-login" onClick={() => this.iniciarSesionInstructores()}  >Iniciar Sesión</button>    
                 </form>
-                <button type="button" className="button-login" onClick={() => this.iniciarSesion()}  >Iniciar Sesión</button>
+                
             </div>
         )
     }
