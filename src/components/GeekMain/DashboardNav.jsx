@@ -20,7 +20,7 @@ export default function DashboardNav(props) {
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/TaskMain"?" active": "")}   to="/TaskMain">Tareas</Link></li>
                             <li className="nav-item "><Link className={"nav-link"+(props.match.path=="/Cronograma-general"?" active": "")}   to="/Cronograma-general">Cronograma General</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/DocMain"?" active": "")} to="/DocMain">Documentación reglamentaria</Link></li>
-                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/ParticipantsMain"?" active": "")} to="/ParticipantsMain">Participantes</Link></li>
+                            <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/ParticipantsMain"?" active": "")} to="/ParticipantsMain">Estudiantes</Link></li>
                             <li className="nav-item"><Link className={"nav-link"+(props.match.path=="/InstructorsMain"?" active": "")} to="/InstructorsMain">Instructores</Link></li>
                         </ul>
                     </nav>
@@ -41,7 +41,7 @@ export default function DashboardNav(props) {
                     </div>
                 </section>
                 {/* estructura de la sesion de anuncios */}
-                <section className="border border-warning" id="cont-anuncios">
+                <section  id="cont-anuncios">
                     {React.createElement (props.contentComponent, props)}
                 </section>
             </div>

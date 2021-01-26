@@ -6,7 +6,7 @@ import desktop from '../../img/desktop.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle} from "@fortawesome/free-solid-svg-icons";
 
-const baseUrl = "https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/usuarios";
+const url = "https://fuente-de-datos-geek-virtual-b6nd06nal.vercel.app/usuarios";
 class Login extends Component {
     state = {
         form: {
@@ -21,9 +21,10 @@ class Login extends Component {
                 [e.target.name]: e.target.value
             }
         });
+        
     }
     iniciarSesion = async () => {
-         axios.get(`${baseUrl}?username=${this.state.form.username}&password=${this.state.form.password}`)
+         axios.get(`${url}?username=${this.state.form.username}&password=${this.state.form.password}`)
             .then(response => {
                 console.log(response.data);
                 return response.data;

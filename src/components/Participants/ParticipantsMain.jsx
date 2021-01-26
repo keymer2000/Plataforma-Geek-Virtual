@@ -21,7 +21,7 @@ class ParticipantsMain extends Component{
     render(){
     return (
         <div>
-           <h1 className="text-center mt-5" style={{fontFamily:"Georgia"}}>Participantes</h1>
+           <h1 className="text-center mt-5" style={{fontFamily:"Georgia"}}>Estudiantes</h1>
             <table className="mt-5  " style={{width:"70%", margin:"auto", height:"auto"}}>
                 <tbody>
                     {this.state.data.map((usuario, i) =>{

@@ -73,7 +73,7 @@ class Posts extends Component {
                 <div style={{ width: "100%" }}>
                     {this.state.data.map((anuncio, i) => {
                         return (
-                            <div id="cont-fila-anuncio" className="border border-primary" key={i} style={{ height: "450px" }} >
+                            <div id="cont-fila-anuncio" className="border-top border-dark" key={i} style={{ height: "450px" }} >
                                 <div className="" id="area-anuncio">
                                     <p>{anuncio.textAnuncio}</p>
                                     <p><u>{anuncio.enlace}</u></p>

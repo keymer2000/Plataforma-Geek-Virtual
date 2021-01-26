@@ -4,11 +4,13 @@
 }
 
 #cont-login{
-    font-weight: 500;
+    font-weight: 700;
+    cursor: pointer;
 }
 
+
 #cont-login:hover{
-    background-color: rgb(180, 176, 176);
+    background-color: rgb(248, 4, 155);
     color: white;
 }
 

@@ -22,12 +22,12 @@ class HeaderNav extends Component {
                 <div className="row" style={{height:"100%"}}>
                     <div className="col-2 p-1 border-right "  >
                         <div className="row float-right"  style={{width:"50px"}}>
-                            <img className="pr-1" style={{maxWidth:"40px"}} src={perfil} alt="perfil.jp" />
+                            <img className="pr-1 mt-1" style={{maxWidth:"40px"}} src={perfil} alt="perfil.jp" />
                         </div>
                     </div>
                     <div className="col-7 border-right " >
                         <div className="row pl-1">
-                            <p className="ml-4 pt-2" >KEYMER ALEXANDER JIMENEZ JEREZ</p>
+                            <p className="ml-2 mt-2" style={{color:"white"}} >KEYMER ALEXANDER JIMENEZ JEREZ</p>
                         </div>
                     </div>
                     <div className="col-3 " >
