@@ -5,18 +5,7 @@
   "homepage": "https://keymer2000.github.io/Plataforma-Geek-Virtual/",
   "dependencies": {
     
-    "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "jquery": "^3.5.1",
-    "mdbreact": "^5.0.1",
-    "popper.js": "^1.16.1",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.4.3",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "reactstrap": "^8.9.0",
-    "sweetalert2": "^10.13.3",
+   
     "web-vitals": "^0.2.4"
   },
   "scripts": {
