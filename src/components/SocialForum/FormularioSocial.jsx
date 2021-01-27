@@ -88,22 +88,34 @@ class FormularioSocial extends Component {
                 <hr />
                 {/* <h1 className="text-center">Temas</h1> */}
                 <div className="mt-4" style={{ width: "95%", margin: "auto" }}>
+                <div className="mt-4"  >
+                            <div className=" border p-4" style={{ borderRadius: "10px", backgroundColor: " #bde1ff" }} >
+                                <p>No he podido integrar la libreria de bootstrap a mi pagina web de free code camp</p>
+                                <a href="" alt=""><strong style={{ color: "black" }} >Comentarios</strong></a><br />
+                                <p style={{backgroundColor:"#eff2f2", padding:"15px", borderRadius:"5px"}}><u><strong>Respuesta de: </strong>keymer jimenez</> puedes pegar esta linea de codigo al inicio de tu index.html <u> link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"</u> </p>
+                                <textarea name="" id="" rows="2" placeholder="Escribe tu comentario..." style={{ width: "100%", backgroundColor: "#eff2f2" }}></textarea>
+                                <div className="text-right">
+                                    <button className="btn btn-info font-weight-bold" >Guardar comentario</button>
+                                </div>
+                            </div>
+                        </div>
                     {this.state.data.map((consulta, i) => {
+                        
                         return (
-                            <div className="mt-3" key={i}  >
-                                <div className="card-header border border-primary p-4" style={{ borderRadius: "10px" }} >
+                            <div className="mt-4" key={i}  >
+                                <div className=" border p-4" style={{ borderRadius: "10px", backgroundColor: " #bde1ff" }} >
                                     <p>{consulta.tema}</p>
-                                    <a href="" alt="">Comentar</a><br/>
-                                    <textarea name="" id="" rows="3" placeholder="Escribe tu comentario..." style={{width:"100%"}}></textarea>
+                                    <strong style={{ color: "black" }} >Comentarios</strong><br />
+                                    <textarea name="" id="" rows="2" placeholder="Escribe tu comentario..." style={{ width: "100%", backgroundColor: "#eff2f2" }}></textarea>
                                     <div className="text-right">
-                                        <button className="btn btn-primary" >Guardar comentario</button>
+                                        <button className="btn btn-info font-weight-bold" >Guardar comentario</button>
                                     </div>
                                 </div>
                             </div>
                         )
                     })}
-            </div>
-            
+                </div>
+
             </div >
 
         )
