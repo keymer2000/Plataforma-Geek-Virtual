@@ -80,7 +80,7 @@ function App() {
 
           {/* enrutamiento raiz del proyecto */}
 
-          <Route path="/Plataforma-Geek-Virtual" exact render={(props) =>
+          <Route path="/" exact render={(props) =>
             <Redirect {...props} to="/Home"></Redirect>}>
           </Route>
 
