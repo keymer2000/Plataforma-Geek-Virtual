@@ -6,6 +6,7 @@ class AdministradorMain extends Component {
     return (
         <div>
             <HeaderInstructores></HeaderInstructores>
+            <div className="border border-warning"></div>
         </div>
     )
     }
