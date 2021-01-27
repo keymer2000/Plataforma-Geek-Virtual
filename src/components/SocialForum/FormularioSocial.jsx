@@ -95,6 +95,9 @@ class FormularioSocial extends Component {
                                     <p>{consulta.tema}</p>
                                     <a href="" alt="">Comentar</a><br/>
                                     <textarea name="" id="" rows="3" placeholder="Escribe tu comentario..." style={{width:"100%"}}></textarea>
+                                    <div className="text-right">
+                                        <button className="btn btn-primary" >Guardar comentario</button>
+                                    </div>
                                 </div>
                             </div>
                         )
