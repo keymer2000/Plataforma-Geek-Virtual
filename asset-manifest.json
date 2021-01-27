@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Plataforma-Geek-Virtual/static/css/main.c255a2d6.chunk.css",
-    "main.js": "/Plataforma-Geek-Virtual/static/js/main.64388443.chunk.js",
-    "main.js.map": "/Plataforma-Geek-Virtual/static/js/main.64388443.chunk.js.map",
+    "main.css": "/Plataforma-Geek-Virtual/static/css/main.bfb8b4e7.chunk.css",
+    "main.js": "/Plataforma-Geek-Virtual/static/js/main.e27b4e97.chunk.js",
+    "main.js.map": "/Plataforma-Geek-Virtual/static/js/main.e27b4e97.chunk.js.map",
     "runtime-main.js": "/Plataforma-Geek-Virtual/static/js/runtime-main.e68a9030.js",
     "runtime-main.js.map": "/Plataforma-Geek-Virtual/static/js/runtime-main.e68a9030.js.map",
     "static/css/2.325dfaf0.chunk.css": "/Plataforma-Geek-Virtual/static/css/2.325dfaf0.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.bf8901ee.chunk.js.map": "/Plataforma-Geek-Virtual/static/js/2.bf8901ee.chunk.js.map",
     "index.html": "/Plataforma-Geek-Virtual/index.html",
     "static/css/2.325dfaf0.chunk.css.map": "/Plataforma-Geek-Virtual/static/css/2.325dfaf0.chunk.css.map",
-    "static/css/main.c255a2d6.chunk.css.map": "/Plataforma-Geek-Virtual/static/css/main.c255a2d6.chunk.css.map",
+    "static/css/main.bfb8b4e7.chunk.css.map": "/Plataforma-Geek-Virtual/static/css/main.bfb8b4e7.chunk.css.map",
     "static/js/2.bf8901ee.chunk.js.LICENSE.txt": "/Plataforma-Geek-Virtual/static/js/2.bf8901ee.chunk.js.LICENSE.txt",
     "static/media/LogoAG.8ad1348d.jpg": "/Plataforma-Geek-Virtual/static/media/LogoAG.8ad1348d.jpg",
     "static/media/posts.css": "/Plataforma-Geek-Virtual/static/media/anuncio.dbdd6c63.JPG",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.e68a9030.js",
     "static/css/2.325dfaf0.chunk.css",
     "static/js/2.bf8901ee.chunk.js",
-    "static/css/main.c255a2d6.chunk.css",
-    "static/js/main.64388443.chunk.js"
+    "static/css/main.bfb8b4e7.chunk.css",
+    "static/js/main.e27b4e97.chunk.js"
   ]
 }
