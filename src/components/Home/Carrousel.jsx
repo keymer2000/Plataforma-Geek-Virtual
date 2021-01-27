@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask,  } from
 "mdbreact";
-import Slide1 from './img/slide1.jpg'
-import Slide2 from './img/slide2.jpg'
-import Slide3 from './img/slide3.jpg'
+import Slide1 from './imagenes/slide1.jpg'
+import Slide2 from './imagenes/slide2.jpg'
+import Slide3 from './imagenes/slide3.jpg'
 
 
 class Carrousel extends Component{

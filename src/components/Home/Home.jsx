@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import LogoAG from './img/LogoAG.jpg'
-import LogoGV from './img/LogoGV.png'
-import Frontend from './img/frontend.jpg'
-import Backend from './img/backend.jpg'
-import Nosotros from './img/nosotros.jpg'
+import LogoAG from './imagenes/LogoAG.jpg'
+import LogoGV from './imagenes/LogoGV.png'
+import Frontend from './imagenes/frontend.jpg'
+import Backend from './imagenes/backend.jpg'
+import Nosotros from './imagenes/nosotros.jpg'
 
 import "../../styles/Home/home.css";
 // import Popper from 'popper.js';
