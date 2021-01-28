@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './../../styles/geekmain/dashboard.css'
 import logoMakaia from './../../img/logoMakaia.jpg'
 import logoAgile from './../../img/logoAgile.png'
-import logoEvolution from './../../img/logoEvolution.png'
+import logoEvolution from './../../img/logoEvolution.jpg'
 // import Posts from './../GeekMain/Posts';
 
 export default function DashboardNav(props) {
@@ -35,7 +35,11 @@ export default function DashboardNav(props) {
                                 <a href="" alt=""><img className=" img-fluid" src={logoAgile} alt="" width="150px" /></a>
                             </div>
                             <div className=" border">
-                                <a href="" alt=""><img className=" img-fluid" src={logoEvolution} alt="" width="150px" /></a>
+                                <a href="" alt="">
+                                    <img className="mt-3 img-fluid" src={logoEvolution} alt="" width="150px" />
+                                </a>
+                                <h3 className="mb-3" style={{color:"blue"}}>Evolution</h3>
+                                
                             </div>
                         </div>
                     </div>
